@@ -1,0 +1,98 @@
+.ChatScreen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Chat-content {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  position: absolute;
+}
+
+.Chat-block {
+  width: 100%;
+  min-height: 90%;
+  background-color:white;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 0 rgba(11,20,26,.19), 0 12px 15px 0 rgba(11,20,26,.19);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.Chat-Title-block {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(215, 215, 215);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Chat-Messages-block {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.Chat-Input-block {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(215, 215, 215);;
+}
+
+.Chat-Title-number {
+  font-weight: 900;
+  font-size: 25;
+  margin-left: 20px;
+}
+
+.Chat-Input-field {
+  width: 70%;
+  height: 70%;
+  resize: none;
+}
+
+.Enter-number-block {
+  width: 40%;
+  background-color:white;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 0 rgba(11,20,26,.19), 0 12px 15px 0 rgba(11,20,26,.19);
+  display: flex;
+  position: absolute;
+  z-index: 5;
+  top: 20%;
+  bottom: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+
+}
+
+.Phone-block-title {
+  width: 100%;
+  color:black;
+  font-size: 20px;
+  font-weight: 200;
+}
